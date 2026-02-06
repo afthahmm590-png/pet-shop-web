@@ -395,6 +395,12 @@ ul {
     color: #000;
 }
 
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
 #contact-form {
     display: flex;
     flex-direction: column;
@@ -561,6 +567,20 @@ footer {
     margin-top: 0;
 }
 
+@media (max-width: 600px) {
+  .contact-container {
+    padding: 0.5rem;
+  }
+
+  #contact-form {
+    gap: 0.5rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 0.9rem;
+  }
+}
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
