@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MM Pets | Exotic Companions</title>
+    <meta name="description" content="MM Pets - Your premium destination for sugar gliders, snakes, and exotic pets.">
+
+    <!-- Google Fonts --> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">MM Pets<span class="dot">.</span></div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Pets</a></li>
+            <li><a href="#contact" class="btn-contact">Contact Us</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <header id="hero" class="hero">
+        <div class="hero-bg">
+            <img src="images/hero_bg.png" alt="Luxury Background">
+            <div class="overlay"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Exotic <span class="highlight">Companions</span> <br>& Premium Care</h1>
+                <p>Discover unique pets like Sugar Gliders, Snakes, and Marmosets. We bring the wild's beauty to your
+                    home.</p>
+                <div class="hero-btns">
+                    <a href="#gallery" class="btn btn-primary">View Collection</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+                 <div class="social-icons">
+                   <a href="https://www.instagram.com/mm_pets__?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="icon instagram">
+                   <i class="fab fa-instagram"></i>
+                      </a>
+                   <a href="https://wa.me/7306019961" target="_blank" class="icon whatsapp">
+                   <i class="fab fa-whatsapp"></i>
+                     </a>
+               </div>
+            </div>
+           
+        </div>
+    </header>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Us</h2>
+                <div class="line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Welcome to <strong>MM Pets</strong>, where passion for exotic animals meets exceptional care. We
+                        specialize in ethically sourcing and raising unique companions including Sugar Gliders, Snakes,
+                        Cats, and Birds.</p>
+                    <p>Our mission is to provide healthy, well-socialized pets and the expert advice you need to give
+                        them a thriving life. Whether you're a seasoned enthusiast or a first-time exotic pet owner, we
+                        are here to support your journey.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Pets</h2>
+                <p class="subtitle">Curated with love and care</p>
+            </div>
+            <div class="gallery-grid">
+                <!-- Sugar Glider -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/sugar_glider.png" alt="Sugar Glider">
+                    </div>
+                    <div class="card-info">
+                        <h3>Sugar Gliders</h3>
+                        <p>Playful, bonding marsupials perfect for dedicated owners.</p>
+                    </div>
+                </div>
+                <!-- Iguana -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/iguana.png" alt="Iguana">
+                    </div>
+                    <div class="card-info">
+                        <h3>Iguana</h3>
+                        <p>Striking green reptiles for experienced keepers.</p>
+                    </div>
+                </div>
+
+                <!-- Marmoset -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/marmoset.png" alt="Marmoset Monkey">
+                    </div>
+                    <div class="card-info">
+                        <h3>Marmoset</h3>
+                        <p>Intelligent, small monkeys that make unique companions.</p>
+                    </div>
+                </div>
+                <!-- Cats Slideshow -->
+                <div class="card">
+                    <div class="slideshow-container">
+                        <div class="slides-wrapper">
+                            <div class="slide">
+                                <div class="card-image">
+                                    <img src="images/persian_cat.png" alt="Persian Cat">
+                                </div>
+                                <div class="card-info">
+                                    <h3>Persian Cat</h3>
+                                    <p>Elegant, fluffy companions with a gentle temperament.</p>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="card-image">
+                                    <img src="images/british_shorthair.png" alt="British Shorthair">
+                                </div>
+                                <div class="card-info">
+                                    <h3>British Shorthair</h3>
+                                    <p>Dense coats and easy-going personalities.</p>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="card-image">
+                                    <img src="images/bengal_cat.png" alt="Bengal Cat">
+                                </div>
+                                <div class="card-info">
+                                    <h3>Bengal Cat</h3>
+                                    <p>Active, playful, and beautifully marked exotic cats.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                </div>
+
+                <!-- Tegu -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/tegu_final.png" alt="Tegu">
+                    </div>
+                    <div class="card-info">
+                        <h3>Tegu</h3>
+                        <p>Large, intelligent lizards known for their dog-like behavior.</p>
+                    </div>
+                </div>
+                <!-- Snake -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/snake.png" alt="Exotic Snake">
+                    </div>
+                    <div class="card-info">
+                        <h3>Exotic Snakes</h3>
+                        <p>Beautiful ball pythons, corn snakes, and more.</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Contact Us</h2>
+                    <p>Ready to bring a new friend home? Reach out to us for availability and inquiries.</p>
+
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <span>Call Us</span>
+                            <a href="tel:+917306019961">+91 7306019961</a>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <span>Email Us</span>
+                            <a href="mailto:mubarakmaliyekkal1997@gmail.com">mubarakmaliyekkal1997@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/mm_pets__?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                            target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/7306019961" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <form id="contact-form" action="">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Message / Inquiry" required></textarea>
+                    </div>
+                    <a href="https://wa.me/9048909257?text=Hello%20MM%20Pets%2C%20I%20am%20interested%20in%20your%20exotic%20companions."></a>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MM Pets. All rights reserved.</p>
+        <p class="designer-credit"><a href="https://afthahmm590-png.github.io/personalwebsite/">Designed by Afthah Bin Rafi</p></a>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
